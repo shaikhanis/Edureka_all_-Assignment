@@ -1,0 +1,203 @@
+
+div{
+    font-weight: 500;
+    color: rgb(8, 20, 54);
+}
+.headbar{
+    background-color: maroon;
+    width: 100%;
+    padding: 15px;
+}
+.eLogo{
+    font-size: 45px;
+    color: maroon;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    text-align:center;
+    font-family: Poppins;
+    font-weight: 800;
+    
+}
+.LogInButton{
+    border: solid maroon;
+    color: white;
+    background-color: inherit;
+    font-style: none;
+    margin-right: 10%;
+    font-family: Poppins;
+    font-size: small;
+}
+.accountManage{
+    display: flex;
+    margin-left: 80%;
+    margin-right: 5%;
+    margin-top: -45px;
+    top: 2%;
+    padding: 2px;
+    font-family: Poppins;
+    background-color: inherit;
+
+}
+.AccInButton{
+    border: solid 1px white;
+    color: white;
+    background-color: inherit;
+    padding: 8px;
+    font-size: small;
+}
+.a1{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+}
+.a1:hover{
+    color: wheat;
+}
+.imageTag {
+    padding: 20px;
+}
+.bakeryName{
+    padding: top 5px;padding-left: 70px;
+    font-family: Poppins;
+}
+.Tabsall{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-family: Poppins;
+}
+.x{
+    display: flex;
+    float: right;
+    color: black;
+    font-size:large;
+    text-align: center;
+    border-radius: 14%;
+    padding-left: 8px;
+    width: 1.5em;
+    border: none;
+    
+    
+}
+.x:hover{
+    background-color: rgb(250, 72, 72);
+}
+.google-fb{
+    margin-top: 8%;
+}
+.orderButton{
+    display: flex;
+    float: right;
+    margin-right: 15px;
+}
+.inputBox{
+    width: 80%;
+    padding: 10px;
+}
+.itemName{
+    display:inline;
+}
+.veg{
+    color: rgb(10, 163, 1);
+}
+.non-veg{
+    color: rgb(248, 54, 54);
+}
+.total{
+    /* position: fixed;
+    
+    right: 20%;
+    top: 5%; */
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(142, 217, 221);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px 0px rgb(111 113 113);
+    height: 9%;
+    width: 150px;
+    padding: 3px;
+
+}
+.paybtn{
+    display: flex;
+    float: right;
+}
+.amountbtn{
+    display: inline-block;
+    margin-top: -18%;
+    margin-left: 85%;
+}
+.modelHead{
+    display: inline;
+    margin-bottom: 2px;
+}
+.up-in{
+    color: rgb(3, 3, 158);
+    text-decoration:underline
+}
+.up-in:hover{
+    text-decoration: none;
+    color: rgb(73, 73, 255);
+    cursor:pointer
+}
+.up-in-parent{
+    padding-top: 10px;
+}
+.input{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding: 9px;
+    border: solid 1px rgb(108, 71, 1);
+    border-radius: 5px;
+    box-shadow:2px 5px 8px 2px rgb(249, 214, 149);
+}
+.input:active{
+    border: solid 1px orange;
+}
+/* .input-1{
+    display: block;
+    width: 80%;
+    padding: 9px;
+    border-radius: 5px;
+    box-shadow:-2px -2px 8px 2px rgb(249, 214, 149);
+} */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+.paymentModelh1{
+    display: inline-block;
+}
+.menu_poster{
+    width: 12%;
+    box-shadow: 5px 5px 15px 2px grey;
+    border-radius: 10px;
+    margin-bottom: 11px;
+    margin-right: 18px;
+}
+.menu_heading{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.inputs-container{
+    margin-right: auto;
+    margin-top: -15px;
+    display:block;
+    justify-items: center;
+    width: 100%;
+}
+/* .paynow-div{
+    position: fixed;
+    z-index: 1;
+} */
